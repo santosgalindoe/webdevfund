@@ -107,6 +107,7 @@ footer {
 .logo {
 
     width: 80px;
+    
 
 }
 
@@ -119,6 +120,6 @@ footer {
 #hero-img {
 
     width: 100%;
-    margin: 0px
+    margin: 0 auto; 
 
 }
