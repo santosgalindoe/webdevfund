@@ -123,3 +123,20 @@ footer {
     margin: 0 auto; 
 
 }
+
+footer p {
+
+    font-size: 1.2em;
+
+}
+
+footer p a:hover {
+
+    text-decoration: underline;
+}
+
+footer a {
+
+    text-decoration: none; 
+    
+}
