@@ -5,7 +5,7 @@
     
 }
 
-#nav a { 
+nav a { 
 
     text-align: center; 
     text-decoration: none;
@@ -118,6 +118,7 @@ footer {
 
 #hero-img {
 
-    width: 100px;
+    width: 100%;
+    margin: 0px
 
 }
