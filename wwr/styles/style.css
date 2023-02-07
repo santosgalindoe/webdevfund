@@ -8,6 +8,7 @@
 #nav a { 
 
     text-align: center; 
+    text-decoration: none;
 
 }
 
@@ -67,13 +68,15 @@ nav a:hover {
 
 .book {
 
-    background-color: #57CC99
+    background-color: #57CC99;
+    text-decoration: none;
 
 }
 
 .join {
 
-    background-color: #F0D2D1
+    background-color: #F0D2D1;
+    text-decoration: none;
 
 }
 
@@ -98,5 +101,23 @@ nav a:hover {
 footer {
 
     background-color: #F0D2D1
+
+}
+
+.logo {
+
+    width: 80px;
+
+}
+
+.icon{
+
+    width: 80px;
+
+}
+
+#hero-image {
+
+    width: 100%
 
 }
