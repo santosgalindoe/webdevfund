@@ -82,25 +82,25 @@ nav a:hover {
 
 .book:hover {
 
-    background-color: #42CAFD
+    background-color: #42CAFD;
 
 }
 
 .join:hover {
     
-    background-color: #F0D2D1
+    background-color: #F0D2D1;
 
 }
 
 .msg { 
 
-    background-color: #F0D2D1
+    background-color: #F0D2D1;
 
 }
 
 footer {
 
-    background-color: #F0D2D1
+    background-color: #F0D2D1;
 
 }
 
@@ -118,6 +118,6 @@ footer {
 
 #hero-img {
 
-    width: 100px
+    width: 100px;
 
 }
