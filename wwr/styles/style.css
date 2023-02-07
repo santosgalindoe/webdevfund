@@ -23,6 +23,12 @@
 
 }
 
+.homegrid {
+
+    text-align: center; 
+    
+}
+
 .button-box {
 
     text-align: center;
@@ -79,12 +85,6 @@ nav a:hover {
 .join:hover {
     
     background-color: #F0D2D1
-
-}
-
-#background {
-
-    background-color: #57CC99
 
 }
 
