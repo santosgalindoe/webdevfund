@@ -44,19 +44,20 @@ main section {
 
 #background {
 
+    background-color: #1E352F;
     height: 725px;
      
 }
 
 body {
     
-    background-color: white
+    background-color: white;
 
 }
 
 header {
 
-    background-color: #F0D2D1
+    background-color: #F0D2D1;
 }
 
 nav a:hover {
@@ -138,5 +139,5 @@ footer p a:hover {
 footer a {
 
     text-decoration: none; 
-    
+
 }
