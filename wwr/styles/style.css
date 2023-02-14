@@ -1,143 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+root {
+--heading-font: "Rock Salt", sans-serif;
+--paragraph-font: Roboto, Helvetica, sans-serif;
+}
 #content {
-
     max-width: 1600px;
     margin: 0 auto;
-    
 }
 
 nav a { 
-
     text-align: center; 
     text-decoration: none;
-
+    padding: 35px;
 }
 
 #hero-msg h1 {
-
+    font-family: var(--heading-font); 
     text-align: center; 
-
 }
 
 #hero-msg h4 {
-
     text-align: center;
-
 }
 
 #homegrid {
-
     text-align: center; 
-
 }
 
 .button-box {
-
     text-align: center;
-
 }
 
 main section {
-
     text-align: center;
-
 }
 
 #background {
-
     background-color: #1E352F;
     height: 725px;
-     
 }
 
 body {
-    
     background-color: #1E352F;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 
+h2 {
+    margin: 0;
+}
+
+.home title {
+    font-family: "Rock Salt", sans-serif;
+    font-size: 2em 
 }
 
 header {
-
     background-color: #F0D2D1;
 }
 
 nav a:hover {
-
     background-color: #1E352F;
     color: #d9c2a3;
-
 }
 
-.book {
-
+.book, .join {
     background-color: #57CC99;
     text-decoration: none;
-
+    padding: 15px 30px;
+    font-size: 18px;
+    
 }
 
 .join {
-
     background-color: #F0D2D1;
     text-decoration: none;
-
+    padding: 15px 30px; 
 }
 
 .book:hover {
-
     background-color: #42CAFD;
-
 }
 
 .join:hover {
-    
     background-color: #F0D2D1;
-
 }
 
 .msg { 
-
     background-color: #F0D2D1;
+    padding: 35px; 
+    line-height: 1.5em;
+}
+
+.msg h2 {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.msg p {
+    padding-bottom: 15px; 
+    font-size: .8em; 
 
 }
 
 footer {
-
     background-color: #F0D2D1;
+    padding: 25px 50px; 
 
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .logo {
-
     width: 80px;
-    
+}
 
+#logo_link {
+    padding-top: 5px; 
 }
 
 .icon{
-
     width: 80px;
-
+    padding-top: 10px;
 }
 
 #hero-img {
-
     width: 100%;
     margin: 0 auto; 
-
 }
 
 footer p {
-
     font-size: 1.2em;
-
 }
 
 footer p a:hover {
-
     text-decoration: underline;
 }
 
 footer a {
-
     text-decoration: none; 
-
 }
