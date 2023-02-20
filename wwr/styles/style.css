@@ -52,9 +52,10 @@ h2 {
     margin: 0;
 }
 
-.home title {
+.home-title {
     font-family: "Rock Salt", sans-serif;
-    font-size: 2em 
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 header {
@@ -71,6 +72,8 @@ nav a:hover {
     text-decoration: none;
     padding: 15px 30px;
     font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
 
@@ -107,6 +110,7 @@ nav a:hover {
 footer {
     background-color: #F0D2D1;
     padding: 25px 50px; 
+    margin-top: 200px;
 
 }
 
@@ -142,4 +146,15 @@ footer p a:hover {
 
 footer a {
     text-decoration: none; 
+}
+
+.rivers-card, .camping-cards, .rapids-card {
+    margin: 200px 0;
+}
+.card-image {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
