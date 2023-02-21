@@ -12,21 +12,20 @@ root {
 }
 
 nav a { 
-    text-align: center; 
     text-decoration: none;
     padding: 35px;
     color: white;
+    text-align: center;
 
 }
 
 h4 {
     color: black;
-    font-family: var(--paragraph-font);
+    text-align: center; 
 
 }
 
-#hero-msg h1{
-    font-family: "Rock Salt", sans-serif, "Times New Roman"; 
+#hero-msg h1{ 
     text-align: center; 
     text-decoration: none;
     color: #F0D2D1;
@@ -44,7 +43,6 @@ h4 {
 }
 
 main section {
-    font-family: var(--heading-font);
     text-align: center;
     box-sizing: border-box;
 
@@ -53,12 +51,14 @@ main section {
 #background {
     background-color: #1E352F;
     height: 725px;
+    padding: 20px;
 
 }
 
+
 body {
     background-color: white;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif; 
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .home-title {
-    font-family: var(--paragraph-font);
+    font-family: "Rock Salt", sans-serif, "Times New Roman";
     font-size: 2em;
     margin-top: 10px;
 
@@ -99,13 +99,6 @@ nav a:hover {
     
 }
 
-.join {
-    background-color: #F0D2D1;
-    text-decoration: none;
-    padding: 15px 30px; 
-
-}
-
 .book:hover, .join:hover {
     background-color: #42CAFD;
     color: white;
@@ -114,30 +107,29 @@ nav a:hover {
 
 .msg { 
     background-color: #1E352F;
-    padding: 35px; 
+    padding: 40px; 
     line-height: 1.5em;
     color: white;
 
 }
 
 .msg h2 {
-    font-family: Roboto, Helvetica, sans-serif;
-    color: black; 
-
+    color: none; 
 }
 
 .msg p {
     padding-bottom: 15px; 
     font-size: .8em; 
-    color: black
+    margin: 35px; 
+    color: none;
 
 }
 
 footer {
-    background-color: #1E352F;
     padding: 25px 50px; 
     margin-top: 200px;
-
+    background-color: #1E352F;
+    
 }
 
 footer .social img {
@@ -161,6 +153,7 @@ footer .social img {
 
 }
 
+
 #hero-img {
     width: 100%;
     margin: 0 auto; 
@@ -180,10 +173,6 @@ footer p a:hover {
 
 }
 
-footer a:hover {
-    background-color:none; 
-}
-
 footer a {
     text-decoration: none; 
     color: #F0D2D1;
@@ -195,13 +184,15 @@ footer a {
 
 }
 
-
 .card-img {
     border: 10px solid black;
 
 }
 
-main section mountain {
+main section img{
     box-sizing: border-box;
 
+}
+.mountains {
+    margin: 100px 0; 
 }
