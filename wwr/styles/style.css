@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 root {
 --heading-font: "Rock Salt", sans-serif, "Times New Roman";
---paragraph-font: Roboto, Helvetica, sans-serif;
+--paragraph-font: "Roboto", Helvetica, sans-serif;
 
 }
 
@@ -19,16 +19,17 @@ nav a {
 
 }
 
-#hero-msg h1 {
+h4 {
+    color: black;
+    font-family: var(--paragraph-font);
+
+}
+
+#hero-msg h1{
     font-family: "Rock Salt", sans-serif, "Times New Roman"; 
     text-align: center; 
     text-decoration: none;
     color: #F0D2D1;
-
-}
-
-#hero-msg h4 {
-    text-align: center;
 
 }
 
@@ -45,6 +46,7 @@ nav a {
 main section {
     font-family: var(--heading-font);
     text-align: center;
+    box-sizing: border-box;
 
 }
 
@@ -69,7 +71,7 @@ h2 {
 }
 
 .home-title {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
     font-size: 2em;
     margin-top: 10px;
 
@@ -104,13 +106,7 @@ nav a:hover {
 
 }
 
-.book:hover {
-    background-color: #42CAFD;
-    color: white;
-
-}
-
-.join:hover {
+.book:hover, .join:hover {
     background-color: #42CAFD;
     color: white;
 
@@ -126,12 +122,14 @@ nav a:hover {
 
 .msg h2 {
     font-family: Roboto, Helvetica, sans-serif;
+    color: black; 
 
 }
 
 .msg p {
     padding-bottom: 15px; 
     font-size: .8em; 
+    color: black
 
 }
 
@@ -182,23 +180,28 @@ footer p a:hover {
 
 }
 
+footer a:hover {
+    background-color:none; 
+}
+
 footer a {
     text-decoration: none; 
     color: #F0D2D1;
 
 }
 
-.rivers-card, .camping-cards, .rapids-card {
+.rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 
 }
 
-.card-image {
+
+.card-img {
     border: 10px solid black;
 
 }
 
-main section img {
+main section mountain {
     box-sizing: border-box;
 
 }
