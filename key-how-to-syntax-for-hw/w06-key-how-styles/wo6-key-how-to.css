@@ -1,7 +1,7 @@
 .grid-container{
     display:grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-gap: 10px;
+    grid-template-columns: 150px 150px 150px; /*You can use fr (fraction) instead of px (%) for better results */
+    grid-gap: 30px;
     background-color: blueviolet;
     padding: 10px;
 
