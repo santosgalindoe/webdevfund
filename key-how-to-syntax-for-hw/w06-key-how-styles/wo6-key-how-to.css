@@ -1,6 +1,6 @@
 .grid-container{
     display:grid;
-    grid-template-columns: 150px 150px 150px; /*You can use fr (fraction) instead of px (%) for better results */
+    grid-template-columns: 150px 150px 150px; /*You can use fr (fraction) instead of px (%) for better results in splitting up the columns (automatically add rows)*/
     grid-gap: 30px;
     background-color: blueviolet;
     padding: 10px;
@@ -11,6 +11,37 @@
     border:1px solid black;
     padding:20px;
     font-size: 30px;
-    text-align: center;
+    text-align: center; 
     
 }
+
+/* video {
+    grid-column-start: 1; (this means to start the video element at column 1 on the grid)
+    grid-column-end: 3; (this means to end the video element at column 3 on the grid) 
+}
+*/
+
+/* video {
+    grid-column: 1/3; (start at column one and end at column 3 x-axis) better version of example above
+    grid-row: 1/2; (start at row one and end at row 2 y-axis) better version of example above 
+}
+for this next line of code since lets say hypotheically the stacking order or the fact that our 
+element video (above) in our imaginary html code was written after our h1 element (below) will
+make it so that it is hidden underneath because it came after so to fix it we would add the 
+"z-index" property followed by the value ": 1;" to make it come to the front or forward making it so we 
+dont have that problem due to the order of stacking in our html side of code. If we use a negative value
+it will bring it to the back more. This is the css side of code. 
+
+/* h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    align-self: center; (vertically align)
+
+*/
+/* aside {
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+
